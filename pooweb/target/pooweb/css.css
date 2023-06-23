@@ -1,0 +1,131 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #4d5252a9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color: #030303;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 200%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#title h1{
+    color: #970d0d;
+}
+
+#figuras{
+    height: 100%;
+    width: 100%;
+    /*flexbox style*/
+    display: flex;
+    justify-content: space-around;
+}
+
+#figuras div{
+    width: 20%;
+    margin: 5%;
+    padding: 2%;
+    font-size: 120%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 170%;
+}
+
+img{
+    width: 100%;
+    cursor: pointer;
+}
+
+/*FIGURAS*/
+
+#datos{
+    width: 96%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #72676698;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#datos input{
+    font-size: 200%;
+    margin-bottom: 5%;
+    border: 1px solid #ff0a0a;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#datos button{
+    margin-top: 2%;
+    width: 50%;
+    padding: 2%;
+    background-color: #da6b6b;
+    border-radius: 10px;
+    color: #1a191a;
+    font-size: 170%;
+    border: none;
+}
+
+#datos button:hover{
+    background-color: #20f6af;
+    cursor: pointer;
+}
+
+
+/*Resultado área*/
+h1{
+    color: white;
+}
+
+
+
+.titulo3{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    font-size: 80px;
+}
+
+.areaPerimetro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    align-items: center;
+}
+
+.areaPerimetro > a{
+    color: #fff;
+    padding: 120px;
+    background: #000000;
+    margin: 20px;
+    cursor: pointer;
+}
+.areaPerimetro > a:first-child{
+    color: #ffff;
+    padding: 120px;
+    background: #ec0000;
+    margin: 20px;
+}
+
+.areaPerimetro > a:hover{
+    background: #000000a4;
+}
+.areaPerimetro > a:first-child:hover{
+    background: #ec0000c4;
+}
+
+
